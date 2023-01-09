@@ -1,7 +1,7 @@
 import argparse
 import os
 
-def make_file_accessible(self, file_path: str, file_name: str, user: str) -> str:
+def make_file_accessible(file_path: str, file_name: str, user: str) -> str:
     """
     allow all permissions to the given user for the given file
     """
